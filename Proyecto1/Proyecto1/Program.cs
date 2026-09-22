@@ -9,6 +9,9 @@ namespace Proyecto1
             Persona juan = new Persona("juan", 23);
 
             juan.CumplirAños();  
+
+            bool esMayor = juan.EsMayorDeEdad();
+            Console.WriteLine($"¿Es mayor de edad? {esMayor}");
         }
     }
 }

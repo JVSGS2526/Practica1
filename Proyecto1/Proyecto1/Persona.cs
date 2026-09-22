@@ -22,5 +22,10 @@ namespace Proyecto1
         {
             Edad++;
         }
+
+        public bool EsMayorDeEdad()
+        {
+            return Edad >= 18;
+        }
     }
 }
