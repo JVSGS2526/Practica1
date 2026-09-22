@@ -1,10 +1,17 @@
-﻿namespace Proyecto1
+using System;
+
+namespace Proyecto1
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Persona juan = new Persona("juan", 23);
+
+            juan.CumplirAños();  
+
+            bool esMayor = juan.EsMayorDeEdad();
+            Console.WriteLine($"¿Es mayor de edad? {esMayor}");
         }
     }
 }
