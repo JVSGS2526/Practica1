@@ -18,5 +18,9 @@ namespace Proyecto1
         {
             return $"Nombre: {Nombre}, Edad: {Edad}";
         }
+        public void CumplirAños()
+        {
+            Edad++;
+        }
     }
 }
