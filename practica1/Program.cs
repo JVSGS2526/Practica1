@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Persona juan = new Persona("juan", 23);
+
+            juan.CumplirAños();
         }
     }
 }
