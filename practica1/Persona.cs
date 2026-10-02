@@ -24,6 +24,10 @@ namespace practica1
             return Edad >= 18;
         }
 
+        public void CumplirAños()
+        {
+            Edad++;
+        }
     }
     
 

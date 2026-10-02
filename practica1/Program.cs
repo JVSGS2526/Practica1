@@ -9,6 +9,7 @@
 
             bool esMayor = juan.EsMayorDeEdad();
             Console.WriteLine($"¿Es mayor de edad? {esMayor}");
+            juan.CumplirAños();
         }
     }
 }
