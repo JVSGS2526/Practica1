@@ -6,6 +6,9 @@
         {
             Persona juan = new Persona("juan", 23);
 
+
+            bool esMayor = juan.EsMayorDeEdad();
+            Console.WriteLine($"¿Es mayor de edad? {esMayor}");
             juan.CumplirAños();
         }
     }
