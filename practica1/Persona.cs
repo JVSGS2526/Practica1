@@ -19,6 +19,11 @@ namespace practica1
             return $"Nombre: {Nombre}, Edad: {Edad}";
         }
 
+        public bool EsMayorDeEdad()
+        {
+            return Edad >= 18;
+        }
+
     }
     
 
